@@ -1,0 +1,115 @@
+
+    /* Doc styles */
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        width: 100%;
+
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 175%;
+        margin: 15px;
+    }
+
+    p {
+        padding: 10px;
+        color: white;
+    }
+    
+    section {
+        margin: 10px;
+    }
+   
+    .row{
+        width: 100%;
+    }
+
+    #chicken {
+        width: 30%;
+        position:relative;
+        top: 0;
+        left: 70%;
+        background-color: green;
+        font-size: 125%;
+        text-align: center;
+        border: 1px solid black;
+    }
+    #beef {
+        width: 30%;
+        position:relative;
+        top: 0;
+        left: 70%;
+        background-color: red;
+        font-size: 125%;
+        text-align: center;
+        border: 1px solid black;
+    }
+    #sushi {
+        width: 30%;
+        position:relative;
+        top: 0;
+        left: 70%;
+        background-color: purple;
+        font-size: 125%;
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    /* Desktop layout */
+    @media (min-width: 992px) {
+    .col-lg-4, .col-lg-6, .col-lg-12 {
+        float: left;
+        height: 180px;
+        background-color: gray;
+        border: 1px solid black;
+        margin: 10px;
+
+    }
+    .col-lg-4 {
+        width: 33%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+    /* Tablet layout */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-4, .col-md-6, .col-md-12 {
+        float: left;
+        height: 180px;
+        background-color: gray;
+        border: 1px solid black;
+    }
+    .col-md-4 {
+        width: 33%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+    /* Mobile layout */
+@media (max-width: 767px) {
+    .col-lg-4, .col-lg-6, .col-lg-12 {
+        float: left;
+        height: 180px;
+        background-color: gray;
+        border: 1px solid black;
+
+    }
+}
