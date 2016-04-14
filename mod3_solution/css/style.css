@@ -39,6 +39,7 @@ body {
 #nav-list hr {
 	margin: 0;
 }
+/* END NAVIGATION */
 
 /* MAIN CONTENT */
 header {
@@ -53,3 +54,4 @@ section {
 	background-color: #b4b3da;
 	padding: 10px;
 }
+/* END MAIN CONTENT */
