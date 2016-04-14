@@ -50,9 +50,16 @@ body {
 	font-size: 1.4em;
 	font-weight: bold;
 }
-section {
+.row {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.row section {
 	background-color: #b4b3da;
-	padding: 10px;
+	margin: 10px 0px 20px 0px;
+	padding: 15px;
+	border-radius: 8px;
 }
 section h3 {
 	font-size: 1.2em;
